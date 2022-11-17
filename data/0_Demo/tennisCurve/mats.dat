@@ -1,0 +1,32 @@
+###################################################
+# Part model
+
+Model 13
+Model/handle.obj
+Model/cam.obj
+Model/link0.obj
+Model/link1.obj
+Model/link2.obj
+Model/link3.obj
+Model/link4.obj
+Model/endPen.obj
+Model/pinBall.obj
+Model/g1.obj
+Model/g3.obj
+Model/g4.obj
+Model/curve.obj
+
+###################################################
+# Part motion
+
+Matrix 9
+Frame 3600
+Motion/handle.pmt
+Motion/cam.pmt
+Motion/link0.pmt
+Motion/link1.pmt
+Motion/link2.pmt
+Motion/link3.pmt
+Motion/link4.pmt
+Motion/endPen.pmt
+Motion/pinBall.pmt

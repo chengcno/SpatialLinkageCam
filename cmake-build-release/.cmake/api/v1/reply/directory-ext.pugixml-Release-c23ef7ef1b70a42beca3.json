@@ -1,0 +1,138 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"ext/pugixml/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 173,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 180,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 187,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 195,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Library",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"ext/pugixml/libpugixml.1.11.dylib",
+				"ext/pugixml/libpugixml.1.dylib"
+			],
+			"targetId" : "pugixml-shared::@bfab0717ff4d40fb15cf",
+			"targetIndex" : 37,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"ext/pugixml/libpugixml.dylib"
+			],
+			"targetId" : "pugixml-shared::@bfab0717ff4d40fb15cf",
+			"targetIndex" : 37,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Development",
+			"destination" : "lib/cmake/pugixml",
+			"exportName" : "pugixml-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "pugixml::@bfab0717ff4d40fb15cf",
+					"index" : 0
+				},
+				{
+					"id" : "pugixml-shared::@bfab0717ff4d40fb15cf",
+					"index" : 37
+				}
+			],
+			"paths" : 
+			[
+				"ext/pugixml/CMakeFiles/Export/lib/cmake/pugixml/pugixml-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Development",
+			"destination" : "lib/cmake/pugixml",
+			"paths" : 
+			[
+				"cmake-build-release/ext/pugixml/pugixml-config-version.cmake",
+				"cmake-build-release/ext/pugixml/pugixml-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Development",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-release/ext/pugixml/pugixml.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Development",
+			"destination" : "include",
+			"paths" : 
+			[
+				"ext/pugixml/src/pugiconfig.hpp",
+				"ext/pugixml/src/pugixml.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ext/pugixml",
+		"source" : "ext/pugixml"
+	}
+}
