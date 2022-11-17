@@ -101,7 +101,8 @@ void InitSetting()
     is_FileModel = false;
     is_OptModel = false;
 
-    itrMaxTimes = 15;
+    /// max times of itr, better larger than 500
+    itrMaxTimes = 500;
 }
 
 void InitViewer()
