@@ -1,0 +1,14 @@
+# Target labels
+ cgal-download
+# Source files and their labels
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/cgal/CMakeFiles/cgal-download
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/cgal/CMakeFiles/cgal-download.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/cgal/CMakeFiles/cgal-download-complete.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/cgal/cgal-download-prefix/src/cgal-download-stamp/cgal-download-build.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/cgal/cgal-download-prefix/src/cgal-download-stamp/cgal-download-configure.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/cgal/cgal-download-prefix/src/cgal-download-stamp/cgal-download-download.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/cgal/cgal-download-prefix/src/cgal-download-stamp/cgal-download-install.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/cgal/cgal-download-prefix/src/cgal-download-stamp/cgal-download-mkdir.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/cgal/cgal-download-prefix/src/cgal-download-stamp/cgal-download-patch.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/cgal/cgal-download-prefix/src/cgal-download-stamp/cgal-download-test.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/cgal/cgal-download-prefix/src/cgal-download-stamp/cgal-download-update.rule

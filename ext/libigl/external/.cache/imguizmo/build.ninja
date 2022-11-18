@@ -1,0 +1,200 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: imguizmo-download
+# Configurations: 
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/
+
+#############################################
+# Utility command for imguizmo-download
+
+build imguizmo-download: phony CMakeFiles/imguizmo-download CMakeFiles/imguizmo-download-complete imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-done imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-build imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-configure imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-download imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-install imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-mkdir imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-patch imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-test imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-update
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo -B/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Phony custom command for CMakeFiles/imguizmo-download
+
+build CMakeFiles/imguizmo-download | ${cmake_ninja_workdir}CMakeFiles/imguizmo-download: phony CMakeFiles/imguizmo-download-complete
+
+
+#############################################
+# Custom command for CMakeFiles/imguizmo-download-complete
+
+build CMakeFiles/imguizmo-download-complete imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-done | ${cmake_ninja_workdir}CMakeFiles/imguizmo-download-complete ${cmake_ninja_workdir}imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-done: CUSTOM_COMMAND imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-install imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-mkdir imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-download imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-update imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-patch imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-configure imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-build imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-install imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-test
+  COMMAND = cd /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/CMakeFiles && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/CMakeFiles/imguizmo-download-complete && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-done
+  DESC = Completed 'imguizmo-download'
+  restat = 1
+
+
+#############################################
+# Custom command for imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-build
+
+build imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-build | ${cmake_ninja_workdir}imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-build: CUSTOM_COMMAND imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-configure
+  COMMAND = cd /Users/yingjie/Documents/GitHub/SpatialLinkageCam/cmake-build-release/imguizmo-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-build
+  DESC = No build step for 'imguizmo-download'
+  restat = 1
+
+
+#############################################
+# Custom command for imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-configure
+
+build imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-configure | ${cmake_ninja_workdir}imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-configure: CUSTOM_COMMAND imguizmo-download-prefix/tmp/imguizmo-download-cfgcmd.txt imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-patch
+  COMMAND = cd /Users/yingjie/Documents/GitHub/SpatialLinkageCam/cmake-build-release/imguizmo-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-configure
+  DESC = No configure step for 'imguizmo-download'
+  restat = 1
+
+
+#############################################
+# Custom command for imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-download
+
+build imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-download | ${cmake_ninja_workdir}imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-download: CUSTOM_COMMAND imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-gitinfo.txt imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-mkdir
+  COMMAND = cd /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-gitclone.cmake && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-download
+  DESC = Performing download step (git clone) for 'imguizmo-download'
+  restat = 1
+
+
+#############################################
+# Custom command for imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-install
+
+build imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-install | ${cmake_ninja_workdir}imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-install: CUSTOM_COMMAND imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-build
+  COMMAND = cd /Users/yingjie/Documents/GitHub/SpatialLinkageCam/cmake-build-release/imguizmo-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-install
+  DESC = No install step for 'imguizmo-download'
+  restat = 1
+
+
+#############################################
+# Custom command for imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-mkdir
+
+build imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-mkdir | ${cmake_ninja_workdir}imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-mkdir: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-mkdirs.cmake && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-mkdir
+  DESC = Creating directories for 'imguizmo-download'
+  restat = 1
+
+
+#############################################
+# Custom command for imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-patch
+
+build imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-patch | ${cmake_ninja_workdir}imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-patch: CUSTOM_COMMAND imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-update
+  COMMAND = cd /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-patch
+  DESC = No patch step for 'imguizmo-download'
+  restat = 1
+
+
+#############################################
+# Custom command for imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-test
+
+build imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-test | ${cmake_ninja_workdir}imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-test: CUSTOM_COMMAND imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-install
+  COMMAND = cd /Users/yingjie/Documents/GitHub/SpatialLinkageCam/cmake-build-release/imguizmo-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-test
+  DESC = No test step for 'imguizmo-download'
+  restat = 1
+
+
+#############################################
+# Custom command for imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-update
+
+build imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-update | ${cmake_ninja_workdir}imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-update: CUSTOM_COMMAND imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-download
+  COMMAND = cd /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/imguizmo && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-gitupdate.cmake
+  DESC = Performing update step for 'imguizmo-download'
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo
+
+build all: phony imguizmo-download
+
+# =============================================================================
+# Unknown Build Time Dependencies.
+# Tell Ninja that they may appear as side effects of build rules
+# otherwise ordered by order-only dependencies.
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/RepositoryInfo.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/cfgcmd.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitclone.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitupdate.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/mkdirs.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeSystem.cmake CMakeLists.txt imguizmo-download-prefix/tmp/imguizmo-download-mkdirs.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/RepositoryInfo.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/cfgcmd.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitclone.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitupdate.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/mkdirs.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeSystem.cmake CMakeLists.txt imguizmo-download-prefix/tmp/imguizmo-download-mkdirs.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

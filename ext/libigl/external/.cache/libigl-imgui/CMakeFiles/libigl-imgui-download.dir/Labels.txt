@@ -1,0 +1,14 @@
+# Target labels
+ libigl-imgui-download
+# Source files and their labels
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/libigl-imgui/CMakeFiles/libigl-imgui-download
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/libigl-imgui/CMakeFiles/libigl-imgui-download.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/libigl-imgui/CMakeFiles/libigl-imgui-download-complete.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/libigl-imgui-download-build.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/libigl-imgui-download-configure.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/libigl-imgui-download-download.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/libigl-imgui-download-install.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/libigl-imgui-download-mkdir.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/libigl-imgui-download-patch.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/libigl-imgui-download-test.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/libigl-imgui-download-update.rule

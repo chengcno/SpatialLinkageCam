@@ -1,0 +1,14 @@
+# Target labels
+ imguizmo-download
+# Source files and their labels
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/CMakeFiles/imguizmo-download
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/CMakeFiles/imguizmo-download.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/CMakeFiles/imguizmo-download-complete.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-build.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-configure.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-download.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-install.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-mkdir.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-patch.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-test.rule
+/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-update.rule

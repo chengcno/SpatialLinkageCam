@@ -1,0 +1,14 @@
+# Target labels
+ tinyxml2-download
+# Source files and their labels
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/CMakeFiles/tinyxml2-download
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/CMakeFiles/tinyxml2-download.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/CMakeFiles/tinyxml2-download-complete.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-build.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-configure.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-download.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-install.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-mkdir.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-patch.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-test.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-update.rule

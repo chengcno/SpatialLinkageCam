@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/eigen/CMakeFiles/eigen-download"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/eigen/CMakeFiles/eigen-download.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/eigen/CMakeFiles/eigen-download-complete.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/eigen/eigen-download-prefix/src/eigen-download-stamp/eigen-download-build.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/eigen/eigen-download-prefix/src/eigen-download-stamp/eigen-download-configure.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/eigen/eigen-download-prefix/src/eigen-download-stamp/eigen-download-download.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/eigen/eigen-download-prefix/src/eigen-download-stamp/eigen-download-install.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/eigen/eigen-download-prefix/src/eigen-download-stamp/eigen-download-mkdir.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/eigen/eigen-download-prefix/src/eigen-download-stamp/eigen-download-patch.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/eigen/eigen-download-prefix/src/eigen-download-stamp/eigen-download-test.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/eigen/eigen-download-prefix/src/eigen-download-stamp/eigen-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"eigen-download"
+		],
+		"name" : "eigen-download"
+	}
+}

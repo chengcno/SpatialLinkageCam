@@ -1,0 +1,3 @@
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/CMakeFiles/embree-download.dir
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/CMakeFiles/edit_cache.dir
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/CMakeFiles/rebuild_cache.dir

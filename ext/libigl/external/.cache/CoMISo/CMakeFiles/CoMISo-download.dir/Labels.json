@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CMakeFiles/CoMISo-download"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CMakeFiles/CoMISo-download.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CMakeFiles/CoMISo-download-complete.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CoMISo-download-prefix/src/CoMISo-download-stamp/CoMISo-download-build.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CoMISo-download-prefix/src/CoMISo-download-stamp/CoMISo-download-configure.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CoMISo-download-prefix/src/CoMISo-download-stamp/CoMISo-download-download.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CoMISo-download-prefix/src/CoMISo-download-stamp/CoMISo-download-install.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CoMISo-download-prefix/src/CoMISo-download-stamp/CoMISo-download-mkdir.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CoMISo-download-prefix/src/CoMISo-download-stamp/CoMISo-download-patch.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CoMISo-download-prefix/src/CoMISo-download-stamp/CoMISo-download-test.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CoMISo-download-prefix/src/CoMISo-download-stamp/CoMISo-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"CoMISo-download"
+		],
+		"name" : "CoMISo-download"
+	}
+}

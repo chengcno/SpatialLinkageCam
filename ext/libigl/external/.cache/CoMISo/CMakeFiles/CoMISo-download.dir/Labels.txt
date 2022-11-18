@@ -1,0 +1,14 @@
+# Target labels
+ CoMISo-download
+# Source files and their labels
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CMakeFiles/CoMISo-download
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CMakeFiles/CoMISo-download.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CMakeFiles/CoMISo-download-complete.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CoMISo-download-prefix/src/CoMISo-download-stamp/CoMISo-download-build.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CoMISo-download-prefix/src/CoMISo-download-stamp/CoMISo-download-configure.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CoMISo-download-prefix/src/CoMISo-download-stamp/CoMISo-download-download.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CoMISo-download-prefix/src/CoMISo-download-stamp/CoMISo-download-install.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CoMISo-download-prefix/src/CoMISo-download-stamp/CoMISo-download-mkdir.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CoMISo-download-prefix/src/CoMISo-download-stamp/CoMISo-download-patch.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CoMISo-download-prefix/src/CoMISo-download-stamp/CoMISo-download-test.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/CoMISo/CoMISo-download-prefix/src/CoMISo-download-stamp/CoMISo-download-update.rule

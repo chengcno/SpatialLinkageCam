@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/CMakeFiles/imguizmo-download"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/CMakeFiles/imguizmo-download.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/CMakeFiles/imguizmo-download-complete.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-build.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-configure.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-download.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-install.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-mkdir.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-patch.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-test.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/GitHub/SpatialLinkageCam/ext/libigl/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imguizmo-download"
+		],
+		"name" : "imguizmo-download"
+	}
+}

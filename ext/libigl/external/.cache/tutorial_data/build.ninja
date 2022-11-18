@@ -1,0 +1,200 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: tutorial_data-download
+# Configurations: 
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/
+
+#############################################
+# Utility command for tutorial_data-download
+
+build tutorial_data-download: phony CMakeFiles/tutorial_data-download CMakeFiles/tutorial_data-download-complete tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-done tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-build tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-configure tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-download tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-install tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-mkdir tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-patch tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-test tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-update
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data -B/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Phony custom command for CMakeFiles/tutorial_data-download
+
+build CMakeFiles/tutorial_data-download | ${cmake_ninja_workdir}CMakeFiles/tutorial_data-download: phony CMakeFiles/tutorial_data-download-complete
+
+
+#############################################
+# Custom command for CMakeFiles/tutorial_data-download-complete
+
+build CMakeFiles/tutorial_data-download-complete tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-done | ${cmake_ninja_workdir}CMakeFiles/tutorial_data-download-complete ${cmake_ninja_workdir}tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-done: CUSTOM_COMMAND tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-install tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-mkdir tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-download tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-update tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-patch tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-configure tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-build tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-install tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-test
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/CMakeFiles && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/CMakeFiles/tutorial_data-download-complete && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-done
+  DESC = Completed 'tutorial_data-download'
+  restat = 1
+
+
+#############################################
+# Custom command for tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-build
+
+build tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-build | ${cmake_ninja_workdir}tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-build: CUSTOM_COMMAND tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-configure
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/tutorial_data-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-build
+  DESC = No build step for 'tutorial_data-download'
+  restat = 1
+
+
+#############################################
+# Custom command for tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-configure
+
+build tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-configure | ${cmake_ninja_workdir}tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-configure: CUSTOM_COMMAND tutorial_data-download-prefix/tmp/tutorial_data-download-cfgcmd.txt tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-patch
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/tutorial_data-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-configure
+  DESC = No configure step for 'tutorial_data-download'
+  restat = 1
+
+
+#############################################
+# Custom command for tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-download
+
+build tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-download | ${cmake_ninja_workdir}tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-download: CUSTOM_COMMAND tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-gitinfo.txt tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-mkdir
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/tutorial && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/tmp/tutorial_data-download-gitclone.cmake && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-download
+  DESC = Performing download step (git clone) for 'tutorial_data-download'
+  restat = 1
+
+
+#############################################
+# Custom command for tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-install
+
+build tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-install | ${cmake_ninja_workdir}tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-install: CUSTOM_COMMAND tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-build
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/tutorial_data-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-install
+  DESC = No install step for 'tutorial_data-download'
+  restat = 1
+
+
+#############################################
+# Custom command for tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-mkdir
+
+build tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-mkdir | ${cmake_ninja_workdir}tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-mkdir: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/tmp/tutorial_data-download-mkdirs.cmake && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-mkdir
+  DESC = Creating directories for 'tutorial_data-download'
+  restat = 1
+
+
+#############################################
+# Custom command for tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-patch
+
+build tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-patch | ${cmake_ninja_workdir}tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-patch: CUSTOM_COMMAND tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-update
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-patch
+  DESC = No patch step for 'tutorial_data-download'
+  restat = 1
+
+
+#############################################
+# Custom command for tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-test
+
+build tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-test | ${cmake_ninja_workdir}tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-test: CUSTOM_COMMAND tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-install
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/tutorial_data-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-test
+  DESC = No test step for 'tutorial_data-download'
+  restat = 1
+
+
+#############################################
+# Custom command for tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-update
+
+build tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-update | ${cmake_ninja_workdir}tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-update: CUSTOM_COMMAND tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-download
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/tutorial/data && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/tmp/tutorial_data-download-gitupdate.cmake
+  DESC = Performing update step for 'tutorial_data-download'
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data
+
+build all: phony tutorial_data-download
+
+# =============================================================================
+# Unknown Build Time Dependencies.
+# Tell Ninja that they may appear as side effects of build rules
+# otherwise ordered by order-only dependencies.
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/RepositoryInfo.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/cfgcmd.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitclone.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitupdate.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/mkdirs.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeSystem.cmake CMakeLists.txt tutorial_data-download-prefix/tmp/tutorial_data-download-mkdirs.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/RepositoryInfo.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/cfgcmd.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitclone.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitupdate.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/mkdirs.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeSystem.cmake CMakeLists.txt tutorial_data-download-prefix/tmp/tutorial_data-download-mkdirs.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

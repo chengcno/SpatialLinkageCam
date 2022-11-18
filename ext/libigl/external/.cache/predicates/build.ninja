@@ -1,0 +1,200 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: predicates-download
+# Configurations: 
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/
+
+#############################################
+# Utility command for predicates-download
+
+build predicates-download: phony CMakeFiles/predicates-download CMakeFiles/predicates-download-complete predicates-download-prefix/src/predicates-download-stamp/predicates-download-done predicates-download-prefix/src/predicates-download-stamp/predicates-download-build predicates-download-prefix/src/predicates-download-stamp/predicates-download-configure predicates-download-prefix/src/predicates-download-stamp/predicates-download-download predicates-download-prefix/src/predicates-download-stamp/predicates-download-install predicates-download-prefix/src/predicates-download-stamp/predicates-download-mkdir predicates-download-prefix/src/predicates-download-stamp/predicates-download-patch predicates-download-prefix/src/predicates-download-stamp/predicates-download-test predicates-download-prefix/src/predicates-download-stamp/predicates-download-update
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates -B/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Phony custom command for CMakeFiles/predicates-download
+
+build CMakeFiles/predicates-download | ${cmake_ninja_workdir}CMakeFiles/predicates-download: phony CMakeFiles/predicates-download-complete
+
+
+#############################################
+# Custom command for CMakeFiles/predicates-download-complete
+
+build CMakeFiles/predicates-download-complete predicates-download-prefix/src/predicates-download-stamp/predicates-download-done | ${cmake_ninja_workdir}CMakeFiles/predicates-download-complete ${cmake_ninja_workdir}predicates-download-prefix/src/predicates-download-stamp/predicates-download-done: CUSTOM_COMMAND predicates-download-prefix/src/predicates-download-stamp/predicates-download-install predicates-download-prefix/src/predicates-download-stamp/predicates-download-mkdir predicates-download-prefix/src/predicates-download-stamp/predicates-download-download predicates-download-prefix/src/predicates-download-stamp/predicates-download-update predicates-download-prefix/src/predicates-download-stamp/predicates-download-patch predicates-download-prefix/src/predicates-download-stamp/predicates-download-configure predicates-download-prefix/src/predicates-download-stamp/predicates-download-build predicates-download-prefix/src/predicates-download-stamp/predicates-download-install predicates-download-prefix/src/predicates-download-stamp/predicates-download-test
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/CMakeFiles && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/CMakeFiles/predicates-download-complete && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-done
+  DESC = Completed 'predicates-download'
+  restat = 1
+
+
+#############################################
+# Custom command for predicates-download-prefix/src/predicates-download-stamp/predicates-download-build
+
+build predicates-download-prefix/src/predicates-download-stamp/predicates-download-build | ${cmake_ninja_workdir}predicates-download-prefix/src/predicates-download-stamp/predicates-download-build: CUSTOM_COMMAND predicates-download-prefix/src/predicates-download-stamp/predicates-download-configure
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/predicates-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-build
+  DESC = No build step for 'predicates-download'
+  restat = 1
+
+
+#############################################
+# Custom command for predicates-download-prefix/src/predicates-download-stamp/predicates-download-configure
+
+build predicates-download-prefix/src/predicates-download-stamp/predicates-download-configure | ${cmake_ninja_workdir}predicates-download-prefix/src/predicates-download-stamp/predicates-download-configure: CUSTOM_COMMAND predicates-download-prefix/tmp/predicates-download-cfgcmd.txt predicates-download-prefix/src/predicates-download-stamp/predicates-download-patch
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/predicates-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-configure
+  DESC = No configure step for 'predicates-download'
+  restat = 1
+
+
+#############################################
+# Custom command for predicates-download-prefix/src/predicates-download-stamp/predicates-download-download
+
+build predicates-download-prefix/src/predicates-download-stamp/predicates-download-download | ${cmake_ninja_workdir}predicates-download-prefix/src/predicates-download-stamp/predicates-download-download: CUSTOM_COMMAND predicates-download-prefix/src/predicates-download-stamp/predicates-download-gitinfo.txt predicates-download-prefix/src/predicates-download-stamp/predicates-download-mkdir
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/tmp/predicates-download-gitclone.cmake && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-download
+  DESC = Performing download step (git clone) for 'predicates-download'
+  restat = 1
+
+
+#############################################
+# Custom command for predicates-download-prefix/src/predicates-download-stamp/predicates-download-install
+
+build predicates-download-prefix/src/predicates-download-stamp/predicates-download-install | ${cmake_ninja_workdir}predicates-download-prefix/src/predicates-download-stamp/predicates-download-install: CUSTOM_COMMAND predicates-download-prefix/src/predicates-download-stamp/predicates-download-build
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/predicates-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-install
+  DESC = No install step for 'predicates-download'
+  restat = 1
+
+
+#############################################
+# Custom command for predicates-download-prefix/src/predicates-download-stamp/predicates-download-mkdir
+
+build predicates-download-prefix/src/predicates-download-stamp/predicates-download-mkdir | ${cmake_ninja_workdir}predicates-download-prefix/src/predicates-download-stamp/predicates-download-mkdir: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/tmp/predicates-download-mkdirs.cmake && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-mkdir
+  DESC = Creating directories for 'predicates-download'
+  restat = 1
+
+
+#############################################
+# Custom command for predicates-download-prefix/src/predicates-download-stamp/predicates-download-patch
+
+build predicates-download-prefix/src/predicates-download-stamp/predicates-download-patch | ${cmake_ninja_workdir}predicates-download-prefix/src/predicates-download-stamp/predicates-download-patch: CUSTOM_COMMAND predicates-download-prefix/src/predicates-download-stamp/predicates-download-update
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-patch
+  DESC = No patch step for 'predicates-download'
+  restat = 1
+
+
+#############################################
+# Custom command for predicates-download-prefix/src/predicates-download-stamp/predicates-download-test
+
+build predicates-download-prefix/src/predicates-download-stamp/predicates-download-test | ${cmake_ninja_workdir}predicates-download-prefix/src/predicates-download-stamp/predicates-download-test: CUSTOM_COMMAND predicates-download-prefix/src/predicates-download-stamp/predicates-download-install
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/predicates-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-test
+  DESC = No test step for 'predicates-download'
+  restat = 1
+
+
+#############################################
+# Custom command for predicates-download-prefix/src/predicates-download-stamp/predicates-download-update
+
+build predicates-download-prefix/src/predicates-download-stamp/predicates-download-update | ${cmake_ninja_workdir}predicates-download-prefix/src/predicates-download-stamp/predicates-download-update: CUSTOM_COMMAND predicates-download-prefix/src/predicates-download-stamp/predicates-download-download
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/predicates && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/tmp/predicates-download-gitupdate.cmake
+  DESC = Performing update step for 'predicates-download'
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates
+
+build all: phony predicates-download
+
+# =============================================================================
+# Unknown Build Time Dependencies.
+# Tell Ninja that they may appear as side effects of build rules
+# otherwise ordered by order-only dependencies.
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/RepositoryInfo.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/cfgcmd.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitclone.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitupdate.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/mkdirs.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeSystem.cmake CMakeLists.txt predicates-download-prefix/tmp/predicates-download-mkdirs.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/RepositoryInfo.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/cfgcmd.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitclone.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitupdate.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/mkdirs.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeSystem.cmake CMakeLists.txt predicates-download-prefix/tmp/predicates-download-mkdirs.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

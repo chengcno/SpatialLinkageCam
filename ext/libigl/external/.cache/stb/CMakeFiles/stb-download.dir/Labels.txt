@@ -1,0 +1,14 @@
+# Target labels
+ stb-download
+# Source files and their labels
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/CMakeFiles/stb-download
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/CMakeFiles/stb-download.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/CMakeFiles/stb-download-complete.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/stb-download-build.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/stb-download-configure.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/stb-download-download.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/stb-download-install.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/stb-download-mkdir.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/stb-download-patch.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/stb-download-test.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/stb-download-update.rule

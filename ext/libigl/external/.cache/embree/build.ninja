@@ -1,0 +1,200 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: embree-download
+# Configurations: 
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/
+
+#############################################
+# Utility command for embree-download
+
+build embree-download: phony CMakeFiles/embree-download CMakeFiles/embree-download-complete embree-download-prefix/src/embree-download-stamp/embree-download-done embree-download-prefix/src/embree-download-stamp/embree-download-build embree-download-prefix/src/embree-download-stamp/embree-download-configure embree-download-prefix/src/embree-download-stamp/embree-download-download embree-download-prefix/src/embree-download-stamp/embree-download-install embree-download-prefix/src/embree-download-stamp/embree-download-mkdir embree-download-prefix/src/embree-download-stamp/embree-download-patch embree-download-prefix/src/embree-download-stamp/embree-download-test embree-download-prefix/src/embree-download-stamp/embree-download-update
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree -B/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Phony custom command for CMakeFiles/embree-download
+
+build CMakeFiles/embree-download | ${cmake_ninja_workdir}CMakeFiles/embree-download: phony CMakeFiles/embree-download-complete
+
+
+#############################################
+# Custom command for CMakeFiles/embree-download-complete
+
+build CMakeFiles/embree-download-complete embree-download-prefix/src/embree-download-stamp/embree-download-done | ${cmake_ninja_workdir}CMakeFiles/embree-download-complete ${cmake_ninja_workdir}embree-download-prefix/src/embree-download-stamp/embree-download-done: CUSTOM_COMMAND embree-download-prefix/src/embree-download-stamp/embree-download-install embree-download-prefix/src/embree-download-stamp/embree-download-mkdir embree-download-prefix/src/embree-download-stamp/embree-download-download embree-download-prefix/src/embree-download-stamp/embree-download-update embree-download-prefix/src/embree-download-stamp/embree-download-patch embree-download-prefix/src/embree-download-stamp/embree-download-configure embree-download-prefix/src/embree-download-stamp/embree-download-build embree-download-prefix/src/embree-download-stamp/embree-download-install embree-download-prefix/src/embree-download-stamp/embree-download-test
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/CMakeFiles && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/CMakeFiles/embree-download-complete && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/src/embree-download-stamp/embree-download-done
+  DESC = Completed 'embree-download'
+  restat = 1
+
+
+#############################################
+# Custom command for embree-download-prefix/src/embree-download-stamp/embree-download-build
+
+build embree-download-prefix/src/embree-download-stamp/embree-download-build | ${cmake_ninja_workdir}embree-download-prefix/src/embree-download-stamp/embree-download-build: CUSTOM_COMMAND embree-download-prefix/src/embree-download-stamp/embree-download-configure
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/embree-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/src/embree-download-stamp/embree-download-build
+  DESC = No build step for 'embree-download'
+  restat = 1
+
+
+#############################################
+# Custom command for embree-download-prefix/src/embree-download-stamp/embree-download-configure
+
+build embree-download-prefix/src/embree-download-stamp/embree-download-configure | ${cmake_ninja_workdir}embree-download-prefix/src/embree-download-stamp/embree-download-configure: CUSTOM_COMMAND embree-download-prefix/tmp/embree-download-cfgcmd.txt embree-download-prefix/src/embree-download-stamp/embree-download-patch
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/embree-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/src/embree-download-stamp/embree-download-configure
+  DESC = No configure step for 'embree-download'
+  restat = 1
+
+
+#############################################
+# Custom command for embree-download-prefix/src/embree-download-stamp/embree-download-download
+
+build embree-download-prefix/src/embree-download-stamp/embree-download-download | ${cmake_ninja_workdir}embree-download-prefix/src/embree-download-stamp/embree-download-download: CUSTOM_COMMAND embree-download-prefix/src/embree-download-stamp/embree-download-gitinfo.txt embree-download-prefix/src/embree-download-stamp/embree-download-mkdir
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/tmp/embree-download-gitclone.cmake && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/src/embree-download-stamp/embree-download-download
+  DESC = Performing download step (git clone) for 'embree-download'
+  restat = 1
+
+
+#############################################
+# Custom command for embree-download-prefix/src/embree-download-stamp/embree-download-install
+
+build embree-download-prefix/src/embree-download-stamp/embree-download-install | ${cmake_ninja_workdir}embree-download-prefix/src/embree-download-stamp/embree-download-install: CUSTOM_COMMAND embree-download-prefix/src/embree-download-stamp/embree-download-build
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/embree-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/src/embree-download-stamp/embree-download-install
+  DESC = No install step for 'embree-download'
+  restat = 1
+
+
+#############################################
+# Custom command for embree-download-prefix/src/embree-download-stamp/embree-download-mkdir
+
+build embree-download-prefix/src/embree-download-stamp/embree-download-mkdir | ${cmake_ninja_workdir}embree-download-prefix/src/embree-download-stamp/embree-download-mkdir: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/tmp/embree-download-mkdirs.cmake && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/src/embree-download-stamp/embree-download-mkdir
+  DESC = Creating directories for 'embree-download'
+  restat = 1
+
+
+#############################################
+# Custom command for embree-download-prefix/src/embree-download-stamp/embree-download-patch
+
+build embree-download-prefix/src/embree-download-stamp/embree-download-patch | ${cmake_ninja_workdir}embree-download-prefix/src/embree-download-stamp/embree-download-patch: CUSTOM_COMMAND embree-download-prefix/src/embree-download-stamp/embree-download-update
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/src/embree-download-stamp/embree-download-patch
+  DESC = No patch step for 'embree-download'
+  restat = 1
+
+
+#############################################
+# Custom command for embree-download-prefix/src/embree-download-stamp/embree-download-test
+
+build embree-download-prefix/src/embree-download-stamp/embree-download-test | ${cmake_ninja_workdir}embree-download-prefix/src/embree-download-stamp/embree-download-test: CUSTOM_COMMAND embree-download-prefix/src/embree-download-stamp/embree-download-install
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/embree-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/src/embree-download-stamp/embree-download-test
+  DESC = No test step for 'embree-download'
+  restat = 1
+
+
+#############################################
+# Custom command for embree-download-prefix/src/embree-download-stamp/embree-download-update
+
+build embree-download-prefix/src/embree-download-stamp/embree-download-update | ${cmake_ninja_workdir}embree-download-prefix/src/embree-download-stamp/embree-download-update: CUSTOM_COMMAND embree-download-prefix/src/embree-download-stamp/embree-download-download
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/embree && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/tmp/embree-download-gitupdate.cmake
+  DESC = Performing update step for 'embree-download'
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree
+
+build all: phony embree-download
+
+# =============================================================================
+# Unknown Build Time Dependencies.
+# Tell Ninja that they may appear as side effects of build rules
+# otherwise ordered by order-only dependencies.
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/RepositoryInfo.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/cfgcmd.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitclone.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitupdate.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/mkdirs.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeSystem.cmake CMakeLists.txt embree-download-prefix/tmp/embree-download-mkdirs.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/RepositoryInfo.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/cfgcmd.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitclone.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitupdate.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/mkdirs.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeSystem.cmake CMakeLists.txt embree-download-prefix/tmp/embree-download-mkdirs.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

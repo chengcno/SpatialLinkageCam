@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/CMakeFiles/predicates-download"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/CMakeFiles/predicates-download.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/CMakeFiles/predicates-download-complete.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-build.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-configure.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-download.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-install.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-mkdir.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-patch.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-test.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"predicates-download"
+		],
+		"name" : "predicates-download"
+	}
+}

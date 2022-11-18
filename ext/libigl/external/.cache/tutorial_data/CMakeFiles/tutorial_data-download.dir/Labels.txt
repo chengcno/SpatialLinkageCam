@@ -1,0 +1,14 @@
+# Target labels
+ tutorial_data-download
+# Source files and their labels
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/CMakeFiles/tutorial_data-download
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/CMakeFiles/tutorial_data-download.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/CMakeFiles/tutorial_data-download-complete.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-build.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-configure.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-download.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-install.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-mkdir.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-patch.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-test.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-update.rule

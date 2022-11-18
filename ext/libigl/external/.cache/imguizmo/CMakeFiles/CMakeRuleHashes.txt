@@ -1,0 +1,9 @@
+# Hashes of file build rules.
+daf30f5d43c3afbe95f8564c9afdaf54 CMakeFiles/imguizmo-download-complete
+008e9e50cd4794a0da824b3363f77d11 imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-build
+7b5de9afcbc435061914190aba232625 imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-configure
+1f56ca858988dfdd9b84f96b6635a12d imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-download
+f8f40b55a7331b97a7e3c42fd39afc2f imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-install
+6258d70f2a8735d5c825831be83a4bef imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-mkdir
+aaf5fb1670dd810dc94fe131244d25a9 imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-patch
+780614dfd938bf83bf9f2980edf38b2c imguizmo-download-prefix/src/imguizmo-download-stamp/imguizmo-download-test

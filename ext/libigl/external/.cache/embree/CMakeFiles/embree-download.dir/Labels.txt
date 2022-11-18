@@ -1,0 +1,14 @@
+# Target labels
+ embree-download
+# Source files and their labels
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/CMakeFiles/embree-download
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/CMakeFiles/embree-download.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/CMakeFiles/embree-download-complete.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/src/embree-download-stamp/embree-download-build.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/src/embree-download-stamp/embree-download-configure.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/src/embree-download-stamp/embree-download-download.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/src/embree-download-stamp/embree-download-install.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/src/embree-download-stamp/embree-download-mkdir.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/src/embree-download-stamp/embree-download-patch.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/src/embree-download-stamp/embree-download-test.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/embree/embree-download-prefix/src/embree-download-stamp/embree-download-update.rule

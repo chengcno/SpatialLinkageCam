@@ -1,0 +1,200 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: stb-download
+# Configurations: 
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/
+
+#############################################
+# Utility command for stb-download
+
+build stb-download: phony CMakeFiles/stb-download CMakeFiles/stb-download-complete stb-download-prefix/src/stb-download-stamp/stb-download-done stb-download-prefix/src/stb-download-stamp/stb-download-build stb-download-prefix/src/stb-download-stamp/stb-download-configure stb-download-prefix/src/stb-download-stamp/stb-download-download stb-download-prefix/src/stb-download-stamp/stb-download-install stb-download-prefix/src/stb-download-stamp/stb-download-mkdir stb-download-prefix/src/stb-download-stamp/stb-download-patch stb-download-prefix/src/stb-download-stamp/stb-download-test stb-download-prefix/src/stb-download-stamp/stb-download-update
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb -B/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Phony custom command for CMakeFiles/stb-download
+
+build CMakeFiles/stb-download | ${cmake_ninja_workdir}CMakeFiles/stb-download: phony CMakeFiles/stb-download-complete
+
+
+#############################################
+# Custom command for CMakeFiles/stb-download-complete
+
+build CMakeFiles/stb-download-complete stb-download-prefix/src/stb-download-stamp/stb-download-done | ${cmake_ninja_workdir}CMakeFiles/stb-download-complete ${cmake_ninja_workdir}stb-download-prefix/src/stb-download-stamp/stb-download-done: CUSTOM_COMMAND stb-download-prefix/src/stb-download-stamp/stb-download-install stb-download-prefix/src/stb-download-stamp/stb-download-mkdir stb-download-prefix/src/stb-download-stamp/stb-download-download stb-download-prefix/src/stb-download-stamp/stb-download-update stb-download-prefix/src/stb-download-stamp/stb-download-patch stb-download-prefix/src/stb-download-stamp/stb-download-configure stb-download-prefix/src/stb-download-stamp/stb-download-build stb-download-prefix/src/stb-download-stamp/stb-download-install stb-download-prefix/src/stb-download-stamp/stb-download-test
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/CMakeFiles && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/CMakeFiles/stb-download-complete && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/stb-download-done
+  DESC = Completed 'stb-download'
+  restat = 1
+
+
+#############################################
+# Custom command for stb-download-prefix/src/stb-download-stamp/stb-download-build
+
+build stb-download-prefix/src/stb-download-stamp/stb-download-build | ${cmake_ninja_workdir}stb-download-prefix/src/stb-download-stamp/stb-download-build: CUSTOM_COMMAND stb-download-prefix/src/stb-download-stamp/stb-download-configure
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/stb-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/stb-download-build
+  DESC = No build step for 'stb-download'
+  restat = 1
+
+
+#############################################
+# Custom command for stb-download-prefix/src/stb-download-stamp/stb-download-configure
+
+build stb-download-prefix/src/stb-download-stamp/stb-download-configure | ${cmake_ninja_workdir}stb-download-prefix/src/stb-download-stamp/stb-download-configure: CUSTOM_COMMAND stb-download-prefix/tmp/stb-download-cfgcmd.txt stb-download-prefix/src/stb-download-stamp/stb-download-patch
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/stb-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/stb-download-configure
+  DESC = No configure step for 'stb-download'
+  restat = 1
+
+
+#############################################
+# Custom command for stb-download-prefix/src/stb-download-stamp/stb-download-download
+
+build stb-download-prefix/src/stb-download-stamp/stb-download-download | ${cmake_ninja_workdir}stb-download-prefix/src/stb-download-stamp/stb-download-download: CUSTOM_COMMAND stb-download-prefix/src/stb-download-stamp/stb-download-gitinfo.txt stb-download-prefix/src/stb-download-stamp/stb-download-mkdir
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/tmp/stb-download-gitclone.cmake && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/stb-download-download
+  DESC = Performing download step (git clone) for 'stb-download'
+  restat = 1
+
+
+#############################################
+# Custom command for stb-download-prefix/src/stb-download-stamp/stb-download-install
+
+build stb-download-prefix/src/stb-download-stamp/stb-download-install | ${cmake_ninja_workdir}stb-download-prefix/src/stb-download-stamp/stb-download-install: CUSTOM_COMMAND stb-download-prefix/src/stb-download-stamp/stb-download-build
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/stb-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/stb-download-install
+  DESC = No install step for 'stb-download'
+  restat = 1
+
+
+#############################################
+# Custom command for stb-download-prefix/src/stb-download-stamp/stb-download-mkdir
+
+build stb-download-prefix/src/stb-download-stamp/stb-download-mkdir | ${cmake_ninja_workdir}stb-download-prefix/src/stb-download-stamp/stb-download-mkdir: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/tmp/stb-download-mkdirs.cmake && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/stb-download-mkdir
+  DESC = Creating directories for 'stb-download'
+  restat = 1
+
+
+#############################################
+# Custom command for stb-download-prefix/src/stb-download-stamp/stb-download-patch
+
+build stb-download-prefix/src/stb-download-stamp/stb-download-patch | ${cmake_ninja_workdir}stb-download-prefix/src/stb-download-stamp/stb-download-patch: CUSTOM_COMMAND stb-download-prefix/src/stb-download-stamp/stb-download-update
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/stb-download-patch
+  DESC = No patch step for 'stb-download'
+  restat = 1
+
+
+#############################################
+# Custom command for stb-download-prefix/src/stb-download-stamp/stb-download-test
+
+build stb-download-prefix/src/stb-download-stamp/stb-download-test | ${cmake_ninja_workdir}stb-download-prefix/src/stb-download-stamp/stb-download-test: CUSTOM_COMMAND stb-download-prefix/src/stb-download-stamp/stb-download-install
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/stb-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/stb-download-test
+  DESC = No test step for 'stb-download'
+  restat = 1
+
+
+#############################################
+# Custom command for stb-download-prefix/src/stb-download-stamp/stb-download-update
+
+build stb-download-prefix/src/stb-download-stamp/stb-download-update | ${cmake_ninja_workdir}stb-download-prefix/src/stb-download-stamp/stb-download-update: CUSTOM_COMMAND stb-download-prefix/src/stb-download-stamp/stb-download-download
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/stb && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb/stb-download-prefix/tmp/stb-download-gitupdate.cmake
+  DESC = Performing update step for 'stb-download'
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/stb
+
+build all: phony stb-download
+
+# =============================================================================
+# Unknown Build Time Dependencies.
+# Tell Ninja that they may appear as side effects of build rules
+# otherwise ordered by order-only dependencies.
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/RepositoryInfo.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/cfgcmd.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitclone.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitupdate.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/mkdirs.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeSystem.cmake CMakeLists.txt stb-download-prefix/tmp/stb-download-mkdirs.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/RepositoryInfo.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/cfgcmd.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitclone.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitupdate.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/mkdirs.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeSystem.cmake CMakeLists.txt stb-download-prefix/tmp/stb-download-mkdirs.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

@@ -1,0 +1,14 @@
+# Target labels
+ predicates-download
+# Source files and their labels
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/CMakeFiles/predicates-download
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/CMakeFiles/predicates-download.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/CMakeFiles/predicates-download-complete.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-build.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-configure.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-download.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-install.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-mkdir.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-patch.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-test.rule
+/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/predicates/predicates-download-prefix/src/predicates-download-stamp/predicates-download-update.rule

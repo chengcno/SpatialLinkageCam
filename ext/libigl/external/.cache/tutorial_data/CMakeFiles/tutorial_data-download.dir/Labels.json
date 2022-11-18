@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/CMakeFiles/tutorial_data-download"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/CMakeFiles/tutorial_data-download.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/CMakeFiles/tutorial_data-download-complete.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-build.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-configure.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-download.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-install.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-mkdir.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-patch.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-test.rule"
+		},
+		{
+			"file" : "/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tutorial_data/tutorial_data-download-prefix/src/tutorial_data-download-stamp/tutorial_data-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tutorial_data-download"
+		],
+		"name" : "tutorial_data-download"
+	}
+}

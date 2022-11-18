@@ -1,0 +1,200 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: tinyxml2-download
+# Configurations: 
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/
+
+#############################################
+# Utility command for tinyxml2-download
+
+build tinyxml2-download: phony CMakeFiles/tinyxml2-download CMakeFiles/tinyxml2-download-complete tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-done tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-build tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-configure tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-download tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-install tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-mkdir tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-patch tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-test tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-update
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2 -B/Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Phony custom command for CMakeFiles/tinyxml2-download
+
+build CMakeFiles/tinyxml2-download | ${cmake_ninja_workdir}CMakeFiles/tinyxml2-download: phony CMakeFiles/tinyxml2-download-complete
+
+
+#############################################
+# Custom command for CMakeFiles/tinyxml2-download-complete
+
+build CMakeFiles/tinyxml2-download-complete tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-done | ${cmake_ninja_workdir}CMakeFiles/tinyxml2-download-complete ${cmake_ninja_workdir}tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-done: CUSTOM_COMMAND tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-install tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-mkdir tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-download tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-update tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-patch tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-configure tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-build tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-install tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-test
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/CMakeFiles && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/CMakeFiles/tinyxml2-download-complete && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-done
+  DESC = Completed 'tinyxml2-download'
+  restat = 1
+
+
+#############################################
+# Custom command for tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-build
+
+build tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-build | ${cmake_ninja_workdir}tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-build: CUSTOM_COMMAND tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-configure
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/tinyxml2-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-build
+  DESC = No build step for 'tinyxml2-download'
+  restat = 1
+
+
+#############################################
+# Custom command for tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-configure
+
+build tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-configure | ${cmake_ninja_workdir}tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-configure: CUSTOM_COMMAND tinyxml2-download-prefix/tmp/tinyxml2-download-cfgcmd.txt tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-patch
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/tinyxml2-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-configure
+  DESC = No configure step for 'tinyxml2-download'
+  restat = 1
+
+
+#############################################
+# Custom command for tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-download
+
+build tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-download | ${cmake_ninja_workdir}tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-download: CUSTOM_COMMAND tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-gitinfo.txt tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-mkdir
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/tmp/tinyxml2-download-gitclone.cmake && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-download
+  DESC = Performing download step (git clone) for 'tinyxml2-download'
+  restat = 1
+
+
+#############################################
+# Custom command for tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-install
+
+build tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-install | ${cmake_ninja_workdir}tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-install: CUSTOM_COMMAND tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-build
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/tinyxml2-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-install
+  DESC = No install step for 'tinyxml2-download'
+  restat = 1
+
+
+#############################################
+# Custom command for tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-mkdir
+
+build tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-mkdir | ${cmake_ninja_workdir}tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-mkdir: CUSTOM_COMMAND
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/tmp/tinyxml2-download-mkdirs.cmake && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-mkdir
+  DESC = Creating directories for 'tinyxml2-download'
+  restat = 1
+
+
+#############################################
+# Custom command for tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-patch
+
+build tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-patch | ${cmake_ninja_workdir}tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-patch: CUSTOM_COMMAND tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-update
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-patch
+  DESC = No patch step for 'tinyxml2-download'
+  restat = 1
+
+
+#############################################
+# Custom command for tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-test
+
+build tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-test | ${cmake_ninja_workdir}tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-test: CUSTOM_COMMAND tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-install
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/cmake-build-release/tinyxml2-build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-test
+  DESC = No test step for 'tinyxml2-download'
+  restat = 1
+
+
+#############################################
+# Custom command for tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-update
+
+build tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-update | ${cmake_ninja_workdir}tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-update: CUSTOM_COMMAND tinyxml2-download-prefix/src/tinyxml2-download-stamp/tinyxml2-download-download
+  COMMAND = cd /Users/yingjie/Documents/spatialLink/ext/libigl/external/tinyxml2 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2/tinyxml2-download-prefix/tmp/tinyxml2-download-gitupdate.cmake
+  DESC = Performing update step for 'tinyxml2-download'
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yingjie/Documents/spatialLink/ext/libigl/external/.cache/tinyxml2
+
+build all: phony tinyxml2-download
+
+# =============================================================================
+# Unknown Build Time Dependencies.
+# Tell Ninja that they may appear as side effects of build rules
+# otherwise ordered by order-only dependencies.
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/RepositoryInfo.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/cfgcmd.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitclone.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitupdate.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/mkdirs.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeSystem.cmake CMakeLists.txt tinyxml2-download-prefix/tmp/tinyxml2-download-mkdirs.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/RepositoryInfo.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/cfgcmd.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitclone.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/gitupdate.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/ExternalProject/mkdirs.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeSystem.cmake CMakeLists.txt tinyxml2-download-prefix/tmp/tinyxml2-download-mkdirs.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
