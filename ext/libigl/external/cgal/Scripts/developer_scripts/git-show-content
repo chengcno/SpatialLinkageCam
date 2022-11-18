@@ -1,0 +1,30 @@
+#!/bin/zsh
+
+zmodload zsh/stat
+set -e
+
+git=git
+
+base=${1:-HEAD}
+
+function reset() {
+    git update-ref -d refs/cgal/git-show-content
+    rm -f bundle.gz
+}
+
+trap reset ERR EXIT KILL TERM INT
+
+for c in $(git log --pretty='%h' --first-parent cgal/master..$base); do
+    git update-ref refs/cgal/git-show-content $c
+    git bundle create bundle ${c}^..refs/cgal/git-show-content > /dev/null 2>&1
+    gzip -f bundle
+    size=${(l:4:)$(( $(zstat +size bundle.gz) / 1024 ))}
+    git show --no-patch --pretty='%C(auto)%h (SIZE: %C(auto)'"${size}kB)"'  %s <%an> %cD' $c
+    parents=(${(@)$(git rev-parse $c^@)})
+    if ! [ ${#${parents:1}[@]} -eq 0 ]; then
+        git show --no-patch --pretty='  merge: %h%C(auto)% d' ${parents:1}
+    fi
+done
+last=$c
+
+[ -n "$last" ] && git log -1 --pretty='Base commit: %C(auto)%h %d' ${last}'~'
