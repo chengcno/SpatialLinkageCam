@@ -101,14 +101,14 @@ void InitSetting()
     is_FileModel = false;
     is_OptModel = false;
 
-    /// max times of itr, better larger than 500
+    /// max itr times, better larger than 500
     itrMaxTimes = 500;
 }
 
 void InitViewer()
 {
     ///set animation
-    viewer.core().animation_max_fps = 20.;
+    viewer.core().animation_max_fps = 30.;
     viewer.core().is_animating = false;
     viewer.core().background_color = RowVector4f (1,1,1,0);
 
@@ -188,7 +188,7 @@ int main(int argc, char *argv[])
                         for(int i=1;i<=7;i++)
                         {
                             linksDesign->SetTopologyANDitr(i, itrMaxTimes);
-                            linksDesign->gBestFile = "../data/0_tmp_data/tmpdata"+ to_string(i)+".txt";
+                            linksDesign->gBestFile = "../data/tmp_data/tmpdata"+ to_string(i)+".txt";
                             linksDesign->SetTargetC(_file->posM);
                             if(!linksDesign->OptimizePSO())
                                 continue;

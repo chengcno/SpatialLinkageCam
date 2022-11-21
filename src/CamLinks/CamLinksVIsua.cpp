@@ -25,7 +25,7 @@ CamLinksVisua::CamLinksVisua()
     camC = new CamC;
     pso_pc = new PSO_PC();
 
-    fileLoad = "0_tmp_data/";
+    fileLoad = "tmp_data/";
 }
 
 CamLinksVisua::~CamLinksVisua()
@@ -36,7 +36,7 @@ CamLinksVisua::~CamLinksVisua()
 void CamLinksVisua::ReadLinks()
 {
     fstream linkf;
-    linkf.open("../data/0_tmp_data/tmpdata"+to_string(fileID)+".txt", ios::in);
+    linkf.open("../data/tmp_data/tmpdata"+to_string(fileID)+".txt", ios::in);
 
     for(int i=0;i<5;i++)
     {
