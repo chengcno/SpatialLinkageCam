@@ -3,7 +3,7 @@
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-![](/Users/yingjie/Documents/spatialLink_backup/doc/teaser.png) 
+![](https://github.com/chengcno/SpatialLinkageCam/blob/main/doc/teaser.png)
 
 This repo is an implementation of [Exact 3D Path Generation via 3D Cam-Linkage Mechanisms](https://sutd-cgl.github.io/supp/Publication/projects/2022-SIGAsia-3DCamLinkage/index.html) [Cheng et al. 2022].
 If you have any problems when using this code, you can contact me any time through chengyj@mail.ustc.edu.cn
@@ -56,7 +56,7 @@ This should find and build the dependencies and create a `SpatialLinkages_rMain`
 ## GUI Interface <a name = "usage"></a>
 The control panel is shown below. There are 4 components in the control panel: 
 **Optimization Process**, **I/O files**, **Operation Control**, **Render Control**.
-![](/Users/yingjie/Documents/spatialLink_backup/doc/UI.png)
+![](https://github.com/chengcno/SpatialLinkageCam/blob/main/doc/UI.png)
 
 - ### Parameter Control
 
@@ -80,22 +80,22 @@ The control panel is shown below. There are 4 components in the control panel:
 ## Show the demo <a name = "show_demo"></a>
 You can show the demo by clicking `Read Camlinkage`, importing any `mats.dat` file from the folder `/data/Demo`.
 Following is an example about `tennisCurve`:
-![](/Users/yingjie/Documents/spatialLink_backup/doc/tennis.png)
+![](https://github.com/chengcno/SpatialLinkageCam/blob/main/doc/tennis.png)
 
 ## Create a cam-linkage mechanism <a name = "create_mech"></a>
 These instructions give an example to you of how to use our code to generate a cam-linkage mechanism by yourself.
 
 ### Step 1: import an input curve
 Import any input curve file by clicking `Read Input Curve` button.
-![](/Users/yingjie/Documents/spatialLink_backup/doc/inputCurve.png)
+![](https://github.com/chengcno/SpatialLinkageCam/blob/main/doc/inputCurve.png)
 
 ### Step 2: optimize a mechanism 
 Click the `Optimization` button. It would cost about an hour! Break for a cup of coffee.
-![](/Users/yingjie/Documents/spatialLink_backup/doc/optModel.png)
+![](https://github.com/chengcno/SpatialLinkageCam/blob/main/doc/optModel.png)
 
 ### Step 3: control the movement
 Use `Restart Motion`,`Stop Motion`,`Motion Speed` to control the movement. Use mouse to adjust the camera view.
-![](/Users/yingjie/Documents/spatialLink_backup/doc/motion.png)
+![](https://github.com/chengcno/SpatialLinkageCam/blob/main/doc/motion.png)
 
 ## Acknowledgements <a name = "acknowledgement"></a>
 We thank the reviewers for their valuable comments, Ke Chen for proofreading the paper, and Robert Ferréol for providing equations of some input parametric curves.
